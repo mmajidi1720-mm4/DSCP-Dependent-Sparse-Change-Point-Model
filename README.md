@@ -55,6 +55,3 @@ hist(unlist(tau_samples), breaks=30, col="lightgreen", main="Change-Points")
 * `update_ssvs_pg()`: Implements Algorithm 2, executing Pólya-Gamma draws and SSVS with exact marginal likelihood calculations.
 * `move_birth() / move_death() / move_shift()`: Implements Algorithm 1, managing the trans-dimensional RJMCMC steps using auxiliary variables to maintain high acceptance rates.
 * `DSCP_mcmc_complete()`: The main wrapper orchestrating the Gibbs and RJMCMC updates.
-
-\el.R` ذخیره کرده و همراه با این `README.md` در گیت‌هاب آپلود کنید.
-۲. بخش **Citation** در انتهای فایل را می‌توانید بعد از چاپ شدن مقاله، با اطلاعات دقیق ژورنال و نام نویسندگان همکار به‌روزرسانی کنید.
